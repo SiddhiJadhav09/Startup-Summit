@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STARTUP SUMMIT EXPO 2026</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-bolt"></i>
+                <span>STARTUP<span class="logo-highlight">SUMMIT</span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="#overview" class="nav-link"><i class="fas fa-calendar-alt"></i> Overview</a></li>
+                <li><a href="#highlights" class="nav-link"><i class="fas fa-star"></i> Highlights</a></li>
+                <li><a href="#workshops" class="nav-link"><i class="fas fa-chalkboard-teacher"></i> Workshops</a></li>
+                <li><a href="#organizers" class="nav-link"><i class="fas fa-users"></i> Organizers</a></li>
+                <li><button class="nav-register-btn" onclick="scrollToForm()">
+                    <i class="fas fa-rocket"></i> Register Now
+                </button></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="particles" id="particles-js"></div>
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="live-dot"></span>
+                <span>LIVE EVENT</span>
+                <span class="divider">•</span>
+                <span><i class="far fa-calendar"></i> FEB 15-17, 2026</span>
+                <span class="divider">•</span>
+                <span><i class="fas fa-map-marker-alt"></i> BANGALORE</span>
+            </div>
+            <h1 class="hero-title">IGNITE YOUR <span class="hero-gradient">STARTUP JOURNEY</span></h1>
+            <p class="hero-subtitle">Asia's Largest Startup Ecosystem Event • 500+ Startups • 200+ Investors • 50+ Speakers</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <div>
+                        <h3>500+</h3>
+                        <p>Innovative Startups</p>
+                    </div>
+                </div>
+                <div class="stat">
+                    <div class="stat-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <div>
+                        <h3>200+</h3>
+                        <p>Active Investors</p>
+                    </div>
+                </div>
+                <div class="stat">
+                    <div class="stat-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div>
+                        <h3>₹50L</h3>
+                        <p>Prize Pool</p>
+                    </div>
+                </div>
+                <div class="stat">
+                    <div class="stat-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div>
+                        <h3>10K+</h3>
+                        <p>Global Attendees</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-buttons">
+                <button class="btn-primary btn-glow" onclick="scrollToForm()">
+                    <i class="fas fa-rocket"></i> Register Free
+                    <span class="btn-pulse"></span>
+                </button>
+                <button class="btn-outline" onclick="scrollToSection('highlights')">
+                    <i class="fas fa-play-circle"></i> Watch Highlights
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">WHY ATTEND</span>
+                <h2 class="section-title">Transform Your <span class="text-gradient">Startup Vision</span> into Reality</h2>
+                <p class="section-subtitle">3 Days of Innovation, Networking, and Growth Opportunities</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead">Startup Summit Expo brings together the most dynamic founders, investors, and innovators shaping the future of technology and business. This is where ideas meet execution.</p>
+                    
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <h4>Strategic Networking</h4>
+                            <p>Connect with investors, mentors, and potential partners in curated networking sessions.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <h4>Investor Pitch</h4>
+                            <p>Present your startup to 200+ angel investors and venture capitalists actively seeking opportunities.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h4>Expert Masterclasses</h4>
+                            <p>Learn from successful entrepreneurs and industry leaders through hands-on workshops.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <h4>Competition & Awards</h4>
+                            <p>Compete for ₹50 lakh in funding and industry recognition across multiple categories.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Startup Networking">
+                        <div class="image-badge">
+                            <i class="fas fa-award"></i>
+                            <div>
+                                <h5>Featured In</h5>
+                                <p>Forbes, TechCrunch, ET</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section id="overview" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">EVENT SCHEDULE</span>
+                <h2 class="section-title">Your <span class="text-gradient">3-Day Journey</span> to Success</h2>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">DAY 1</div>
+                    <div class="timeline-content">
+                        <h3><i class="fas fa-flag"></i> Launch & Connect</h3>
+                        <div class="timeline-events">
+                            <div class="event">
+                                <div class="event-time">09:00 AM</div>
+                                <div class="event-details">
+                                    <h4>Registration & Networking Breakfast</h4>
+                                    <p>Kickstart connections over coffee</p>
+                                </div>
+                            </div>
+                            <div class="event">
+                                <div class="event-time">10:30 AM</div>
+                                <div class="event-details">
+                                    <h4>Opening Keynote: Future of Tech</h4>
+                                    <p>By Nandan Nilekani, Co-founder Infosys</p>
+                                </div>
+                            </div>
+                            <div class="event">
+                                <div class="event-time">02:00 PM</div>
+                                <div class="event-details">
+                                    <h4>Founder Stories Panel</h4>
+                                    <p>Unicorn founders share their journey</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">DAY 2</div>
+                    <div class="timeline-content">
+                        <h3><i class="fas fa-microphone"></i> Pitch & Learn</h3>
+                        <div class="timeline-events">
+                            <div class="event">
+                                <div class="event-time">10:00 AM</div>
+                                <div class="event-details">
+                                    <h4>Startup Pitch Battle - Round 1</h4>
+                                    <p>Early-stage startups compete</p>
+                                </div>
+                            </div>
+                            <div class="event">
+                                <div class="event-time">01:30 PM</div>
+                                <div class="event-details">
+                                    <h4>Workshop: Fundraising Strategies</h4>
+                                    <p>By Accel Partners</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">DAY 3</div>
+                    <div class="timeline-content">
+                        <h3><i class="fas fa-trophy"></i> Invest & Celebrate</h3>
+                        <div class="timeline-events">
+                            <div class="event">
+                                <div class="event-time">11:00 AM</div>
+                                <div class="event-details">
+                                    <h4>Investor-Startup Speed Dating</h4>
+                                    <p>1-on-1 meetings with VCs</p>
+                                </div>
+                            </div>
+                            <div class="event">
+                                <div class="event-time">04:00 PM</div>
+                                <div class="event-details">
+                                    <h4>Awards Ceremony & Closing</h4>
+                                    <p>Celebrating innovation winners</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlights Section -->
+    <section id="highlights" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">MAIN ATTRACTIONS</span>
+                <h2 class="section-title">Key <span class="text-gradient">Highlights</span> & Features</h2>
+                <p class="section-subtitle">Experience the pinnacle of startup innovation</p>
+            </div>
+
+            <!-- Main Highlight - Pitch Battle -->
+            <div class="main-highlight">
+                <div class="main-highlight-content">
+                    <div class="highlight-badge">FEATURED EVENT</div>
+                    <h3><i class="fas fa-crown"></i> Startup Pitch Battle 2024</h3>
+                    <p class="highlight-description">The ultimate competition where 100 selected startups pitch to a panel of top-tier investors for ₹50 lakh in funding and mentorship opportunities. Live judging from Sequoia, Accel, and Y Combinator partners.</p>
+                    
+                    <div class="highlight-stats">
+                        <div class="highlight-stat">
+                            <h4>₹50L</h4>
+                            <p>Total Prize Pool</p>
+                        </div>
+                        <div class="highlight-stat">
+                            <h4>100+</h4>
+                            <p>Competing Startups</p>
+                        </div>
+                        <div class="highlight-stat">
+                            <h4>25</h4>
+                            <p>Investor Judges</p>
+                        </div>
+                        <div class="highlight-stat">
+                            <h4>3</h4>
+                            <p>Winning Teams</p>
+                        </div>
+                    </div>
+                    
+                    <button class="btn-primary" onclick="scrollToForm()">
+                        <i class="fas fa-microphone"></i> Apply to Pitch
+                    </button>
+                </div>
+                <div class="main-highlight-image">
+                    <div class="image-glow"></div>
+                    <i class="fas fa-trophy"></i>
+                </div>
+            </div>
+
+            <!-- Other Highlights Grid -->
+            <div class="highlights-grid">
+                <div class="highlight-card">
+                    <div class="highlight-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h4>Investor Connect Lounge</h4>
+                    <p>Exclusive area for 1-on-1 meetings with 200+ verified investors actively seeking investment opportunities.</p>
+                    <span class="highlight-tag">Networking</span>
+                </div>
+                
+                <div class="highlight-card">
+                    <div class="highlight-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h4>AI & Tech Pavilion</h4>
+                    <p>Explore cutting-edge AI solutions, blockchain applications, and future tech from leading innovators.</p>
+                    <span class="highlight-tag">Technology</span>
+                </div>
+                
+                <div class="highlight-card">
+                    <div class="highlight-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h4>Startup Recruitment Zone</h4>
+                    <p>Hire top talent from IITs, IIMs, and global universities. 100+ startups recruiting for 500+ positions.</p>
+                    <span class="highlight-tag">Careers</span>
+                </div>
+                
+                <div class="highlight-card">
+                    <div class="highlight-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h4>Global Expansion Hub</h4>
+                    <p>Connect with international accelerators and learn about entering US, EU, and Southeast Asian markets.</p>
+                    <span class="highlight-tag">International</span>
+                </div>
+                
+                <div class="highlight-card">
+                    <div class="highlight-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h4>Market Insights Theater</h4>
+                    <p>Latest trends in FinTech, HealthTech, EdTech, and GreenTech with data-driven market analysis.</p>
+                    <span class="highlight-tag">Analytics</span>
+                </div>
+                
+                <div class="highlight-card">
+                    <div class="highlight-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h4>Founder Mentorship</h4>
+                    <p>Personal guidance from successful entrepreneurs who have built and scaled multi-million dollar companies.</p>
+                    <span class="highlight-tag">Mentoring</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workshops Section -->
+    <section id="workshops" class="section bg-dark">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">LEARNING ZONE</span>
+                <h2 class="section-title">Expert <span class="text-gradient">Workshops</span> & Masterclasses</h2>
+                <p class="section-subtitle">Learn actionable strategies from industry leaders</p>
+            </div>
+            
+            <div class="workshops-container">
+                <div class="workshop-tabs">
+                    <button class="workshop-tab active" onclick="openWorkshopTab('day1')">
+                        <i class="fas fa-calendar-day"></i>
+                        <span>Day 1</span>
+                        <small>Dec 15</small>
+                    </button>
+                    <button class="workshop-tab" onclick="openWorkshopTab('day2')">
+                        <i class="fas fa-calendar-day"></i>
+                        <span>Day 2</span>
+                        <small>Dec 16</small>
+                    </button>
+                    <button class="workshop-tab" onclick="openWorkshopTab('day3')">
+                        <i class="fas fa-calendar-day"></i>
+                        <span>Day 3</span>
+                        <small>Dec 17</small>
+                    </button>
+                </div>
+                
+                <div class="workshop-content active" id="day1-workshops">
+                    <div class="workshop-card">
+                        <div class="workshop-time">
+                            <span>10:00 AM</span>
+                            <small>2 Hours</small>
+                        </div>
+                        <div class="workshop-details">
+                            <div class="workshop-category">Fundraising</div>
+                            <h4 class="workshop-title">From Seed to Series A: The Complete Fundraising Guide</h4>
+                            <p class="workshop-description">Learn how to create compelling pitch decks, valuation strategies, and navigate term sheets from early-stage to Series A funding.</p>
+                            <div class="workshop-instructor">
+                                <div class="instructor-avatar">
+                                    <i class="fas fa-user-tie"></i>
+                                </div>
+                                <div>
+                                    <h5>Ankit Sharma</h5>
+                                    <p>Partner, Lightspeed Venture Partners</p>
+                                </div>
+                            </div>
+                            <div class="workshop-tags">
+                                <span class="tag">Beginner</span>
+                                <span class="tag"><i class="fas fa-users"></i> 150 Seats</span>
+                            </div>
+                        </div>
+                        <button class="workshop-cta" onclick="scrollToForm()">
+                            <i class="fas fa-calendar-plus"></i> Register
+                        </button>
+                    </div>
+                    
+                    <div class="workshop-card">
+                        <div class="workshop-time">
+                            <span>02:30 PM</span>
+                            <small>1.5 Hours</small>
+                        </div>
+                        <div class="workshop-details">
+                            <div class="workshop-category">Technology</div>
+                            <h4 class="workshop-title">Building Scalable Tech Architecture for Hyper-Growth</h4>
+                            <p class="workshop-description">Architectural patterns, database scaling, microservices implementation, and DevOps practices for high-traffic applications.</p>
+                            <div class="workshop-instructor">
+                                <div class="instructor-avatar">
+                                    <i class="fas fa-user-tie"></i>
+                                </div>
+                                <div>
+                                    <h5>Priya Mehta</h5>
+                                    <p>CTO, Razorpay | Ex-Google</p>
+                                </div>
+                            </div>
+                            <div class="workshop-tags">
+                                <span class="tag">Advanced</span>
+                                <span class="tag"><i class="fas fa-users"></i> 100 Seats</span>
+                            </div>
+                        </div>
+                        <button class="workshop-cta" onclick="scrollToForm()">
+                            <i class="fas fa-calendar-plus"></i> Register
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="workshop-content" id="day2-workshops">
+                    <div class="workshop-card">
+                        <div class="workshop-time">
+                            <span>11:00 AM</span>
+                            <small>2 Hours</small>
+                        </div>
+                        <div class="workshop-details">
+                            <div class="workshop-category">Marketing</div>
+                            <h4 class="workshop-title">Growth Hacking for Early-Stage Startups</h4>
+                            <p class="workshop-description">Low-cost, high-impact marketing strategies, viral loops, product-led growth, and conversion optimization techniques.</p>
+                            <div class="workshop-instructor">
+                                <div class="instructor-avatar">
+                                    <i class="fas fa-user-tie"></i>
+                                </div>
+                                <div>
+                                    <h5>Rohan Desai</h5>
+                                    <p>Growth Lead, Google</p>
+                                </div>
+                            </div>
+                            <div class="workshop-tags">
+                                <span class="tag">Intermediate</span>
+                                <span class="tag"><i class="fas fa-users"></i> 200 Seats</span>
+                            </div>
+                        </div>
+                        <button class="workshop-cta" onclick="scrollToForm()">
+                            <i class="fas fa-calendar-plus"></i> Register
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="workshop-content" id="day3-workshops">
+                    <div class="workshop-card">
+                        <div class="workshop-time">
+                            <span>03:00 PM</span>
+                            <small>2 Hours</small>
+                        </div>
+                        <div class="workshop-details">
+                            <div class="workshop-category">Strategy</div>
+                            <h4 class="workshop-title">Exit Strategies: M&A, IPO, and Acquisition Planning</h4>
+                            <p class="workshop-description">When and how to plan for exits, valuation methods, due diligence preparation, and negotiation strategies for founders.</p>
+                            <div class="workshop-instructor">
+                                <div class="instructor-avatar">
+                                    <i class="fas fa-user-tie"></i>
+                                </div>
+                                <div>
+                                    <h5>Neha Kapoor</h5>
+                                    <p>Investment Banking Director, Goldman Sachs</p>
+                                </div>
+                            </div>
+                            <div class="workshop-tags">
+                                <span class="tag">Advanced</span>
+                                <span class="tag"><i class="fas fa-users"></i> 80 Seats</span>
+                            </div>
+                        </div>
+                        <button class="workshop-cta" onclick="scrollToForm()">
+                            <i class="fas fa-calendar-plus"></i> Register
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Organizers Section -->
+    <section id="organizers" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">PARTNERS</span>
+                <h2 class="section-title">Organized by <span class="text-gradient">Industry Leaders</span></h2>
+                <p class="section-subtitle">Supported by the best in the ecosystem</p>
+            </div>
+            
+            <div class="organizers-grid">
+                <div class="organizer-card">
+                    <div class="organizer-logo">
+                        <i class="fab fa-google"></i>
+                    </div>
+                    <h4>Google for Startups</h4>
+                    <p>Technology Partner</p>
+                    <span class="organizer-tag">Platinum</span>
+                </div>
+                
+                <div class="organizer-card">
+                    <div class="organizer-logo">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h4>Startup India</h4>
+                    <p>Government Partner</p>
+                    <span class="organizer-tag">Gold</span>
+                </div>
+                
+                <div class="organizer-card">
+                    <div class="organizer-logo">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h4>NASSCOM</h4>
+                    <p>Ecosystem Partner</p>
+                    <span class="organizer-tag">Gold</span>
+                </div>
+                
+                <div class="organizer-card">
+                    <div class="organizer-logo">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <h4>Economic Times</h4>
+                    <p>Media Partner</p>
+                    <span class="organizer-tag">Silver</span>
+                </div>
+                
+                <div class="organizer-card">
+                    <div class="organizer-logo">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h4>IIM Bangalore</h4>
+                    <p>Knowledge Partner</p>
+                    <span class="organizer-tag">Silver</span>
+                </div>
+                
+                <div class="organizer-card">
+                    <div class="organizer-logo">
+                        <i class="fab fa-microsoft"></i>
+                    </div>
+                    <h4>Microsoft</h4>
+                    <p>Cloud Partner</p>
+                    <span class="organizer-tag">Silver</span>
+                </div>
+            </div>
+            
+            <div class="sponsors">
+                <h4>Also Supported By</h4>
+                <div class="sponsor-list">
+                    <span>Sequoia Capital</span>
+                    <span>Accel</span>
+                    <span>Y Combinator</span>
+                    <span>Andreessen Horowitz</span>
+                    <span>Tiger Global</span>
+                    <span>SoftBank</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="register" class="section registration-section">
+        <div class="container">
+            <div class="registration-container">
+                <div class="registration-header">
+                    <span class="section-label">SECURE YOUR SPOT</span>
+                    <h2>Register for <span class="text-gradient">Startup Summit 2024</span></h2>
+                    <p>Join 10,000+ innovators. Limited seats available.</p>
+                </div>
+                
+                <div class="registration-steps">
+                    
+                    <!-- Step 1: Personal Details -->
+                    <div class="registration-step active" id="step1">
+                        <div class="step-header">
+                            <h3><i class="fas fa-user-circle"></i> Attendee Information</h3>
+                            <p>Fill in your details to begin registration</p>
+                        </div>
+                        
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="name"><i class="fas fa-user"></i> Full Name *</label>
+                                <input type="text" id="name" placeholder="Enter your full name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="mobile"><i class="fas fa-mobile-alt"></i> Mobile Number *</label>
+                                <input type="tel" id="mobile" placeholder="Enter 10-digit mobile number" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email"><i class="fas fa-envelope"></i> Email Address *</label>
+                                <input type="email" id="email" placeholder="your.email@example.com" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="city"><i class="fas fa-city"></i> City *</label>
+                                <input type="text" id="city" placeholder="Your current city" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="company"><i class="fas fa-building"></i> Company/Startup Name</label>
+                                <input type="text" id="company" placeholder="If applicable">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="role"><i class="fas fa-briefcase"></i> Primary Role *</label>
+                                <select id="role" required>
+                                    <option value="">Select your role</option>
+                                    <option value="founder">Founder/Co-founder</option>
+                                    <option value="investor">Investor/VC/Angel</option>
+                                    <option value="employee">Startup Employee</option>
+                                    <option value="student">Student/Aspiring Entrepreneur</option>
+                                    <option value="corporate">Corporate Professional</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-actions">
+                            <button class="btn-primary btn-submit" onclick="sendOTP()">
+                                <span>Continue to Verification</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 2: OTP Verification -->
+                    <div class="registration-step" id="step2">
+                        <div class="step-header">
+                            <h3><i class="fas fa-shield-alt"></i> Mobile Verification</h3>
+                            <p>Enter the OTP sent to your mobile number</p>
+                        </div>
+                        
+                        <div class="otp-container">
+                            <div class="otp-info">
+                                <i class="fas fa-sms"></i>
+                                <div>
+                                    <h4>OTP Sent to <span id="mobileNumber"></span></h4>
+                                    <p>Enter the 6-digit verification code</p>
+                                </div>
+                            </div>
+                            
+                            <div class="otp-input-container">
+                                <input type="text" id="otpInput" maxlength="6" placeholder="000000">
+                                <div class="otp-timer">
+                                    <i class="fas fa-clock"></i>
+                                    <span id="otpTimer">02:00</span>
+                                </div>
+                            </div>
+                            
+                            <div class="otp-actions">
+                                <button class="btn-primary btn-verify" onclick="verifyOTP()">
+                                    <span>Verify & Complete Registration</span>
+                                    <i class="fas fa-check-circle"></i>
+                                </button>
+                                <button class="btn-resend" onclick="resendOTP()">
+                                    <i class="fas fa-redo"></i>
+                                    <span>Resend OTP</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 3: Success -->
+                    <div class="registration-step" id="step3">
+                        <div class="success-container">
+                            <div class="success-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            
+                            <h2>Registration Successful!</h2>
+                            <p class="success-subtitle">Welcome to Startup Summit Expo 2024</p>
+                            
+                            <div class="ticket">
+                                <div class="ticket-header">
+                                    <h4><i class="fas fa-ticket-alt"></i> Your Digital Ticket</h4>
+                                    <span class="ticket-badge">VIP ACCESS</span>
+                                </div>
+                                
+                                <div class="ticket-body">
+                                    <div class="ticket-qr">
+                                        <div class="qr-placeholder">
+                                            <i class="fas fa-qrcode"></i>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="ticket-details">
+                                        <div class="detail">
+                                            <span class="detail-label">Registration ID</span>
+                                            <h3 id="regIdDisplay">SUMMIT-XXXXXX</h3>
+                                        </div>
+                                        
+                                        <div class="detail">
+                                            <span class="detail-label">Attendee Name</span>
+                                            <h4 id="attendeeName"></h4>
+                                        </div>
+                                        
+                                        <div class="detail-row">
+                                            <div class="detail">
+                                                <span class="detail-label">Event Date</span>
+                                                <p><i class="fas fa-calendar"></i> Dec 15-17, 2024</p>
+                                            </div>
+                                            
+                                            <div class="detail">
+                                                <span class="detail-label">Venue</span>
+                                                <p><i class="fas fa-map-marker-alt"></i> Bangalore Convention Centre</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="ticket-footer">
+                                    <p><i class="fas fa-info-circle"></i> Show this QR code at entry for check-in</p>
+                                </div>
+                            </div>
+                            
+                            <div class="success-actions">
+                                <button class="btn-download" onclick="downloadTicket()">
+                                    <i class="fas fa-download"></i>
+                                    <span>Download Ticket</span>
+                                </button>
+                                <button class="btn-share" onclick="shareTicket()">
+                                    <i class="fas fa-share-alt"></i>
+                                    <span>Share</span>
+                                </button>
+                            </div>
+                            
+                            <div class="next-steps">
+                                <h4><i class="fas fa-list-check"></i> What's Next?</h4>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> You'll receive event updates via email</li>
+                                    <li><i class="fas fa-check"></i> Schedule your sessions through our app</li>
+                                    <li><i class="fas fa-check"></i> Connect with other attendees</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <i class="fas fa-bolt"></i>
+                        <span>STARTUP<span class="logo-highlight">SUMMIT</span></span>
+                    </div>
+                    <p class="footer-description">Asia's premier startup ecosystem event, connecting innovators with opportunities since 2018.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i> About Event</a></li>
+                        <li><a href="#highlights"><i class="fas fa-chevron-right"></i> Key Highlights</a></li>
+                        <li><a href="#workshops"><i class="fas fa-chevron-right"></i> Workshops</a></li>
+                        <li><a href="#register"><i class="fas fa-chevron-right"></i> Register Now</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Bangalore International Convention Centre</p>
+                        <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                        <p><i class="fas fa-envelope"></i> hello@startupsummitexpo.com</p>
+                        <p><i class="fas fa-clock"></i> 10:00 AM - 7:00 PM, Dec 15-17</p>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p>Stay updated with startup insights and event news</p>
+                    <div class="newsletter">
+                        <input type="email" placeholder="Your email address">
+                        <button><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Startup Summit Expo. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="admin.html" target="_blank"><i class="fas fa-lock"></i> Admin Panel</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
